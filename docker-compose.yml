@@ -8,6 +8,11 @@ services:
     ports:
       - "0.0.0.0:8080:80"
     environment:
+      # --- VARIABLES AÑADIDAS PARA ACCESO EXTERNO ESTO HAY QUE INVESTIGARLO POR TU CUENTA ---
+      # SI ME HAS LEIDO HASTA AQUÍ, PREGUNTAME EN CLASE
+      #WORDPRESS_URL: http://192.168.1.40:8080  # <--- ¡IMPORTANTE! Usar la IP del host y el puerto.
+      #WORDPRESS_HOME: http://192.168.1.40:8080 # <--- ¡IMPORTANTE! Usar la IP del host y el puerto.
+      # ----------------------------------------------
       WORDPRESS_DB_HOST: db
       WORDPRESS_DB_USER: wordpress_user
       WORDPRESS_DB_PASSWORD: wordpress_password

@@ -1,0 +1,4 @@
+wordpress/wp-content/uploads/
+db_data/
+wordpress_data/
+*.log
